@@ -1,0 +1,101 @@
+
+#root {
+  width: 100%;
+  padding-inline: 1%;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  height: 600px;
+  text-align: center;
+  
+}
+.card img{
+  width: 100%;
+  height: 300px;
+}
+.card h2{
+  padding: 15px;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.header{
+  display: flex;
+  background-image: url(./assets/imgs/Header.jpg);
+  width: 100%;
+  height: 200px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+.ingredientes p{
+  color: grey;
+}
+.botones-card{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.precios{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+}
+.grilla{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 90%;
+  margin: auto;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+.borde{
+  border-bottom: solid 1px gray;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding-inline: 20px;
+  align-items: center;
+}
+.botones-izquierda{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.form-register{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+  width: 30%;
+}
+.data-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}

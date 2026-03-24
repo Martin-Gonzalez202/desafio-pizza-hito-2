@@ -17,4 +17,4 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 
-***En el formulario de login considera como contraseña correcta : contraseñaCorrecta, para que aparesca la alerta de success
+## En el formulario de login considera como contraseña correcta : contraseñaCorrecta, para que aparezca la alerta de success
